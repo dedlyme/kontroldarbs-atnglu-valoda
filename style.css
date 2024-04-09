@@ -1,0 +1,100 @@
+label {
+    position: relative;
+    display: inline-block;
+    }
+    
+    .invalid-data {
+      position: absolute;
+      top:100%;
+      left:0;
+      color: red;
+      font-size: 0.8em;
+    }
+    body, html {
+        height: 100%;
+      }
+      
+      body {
+        /* The image used */
+        background-image: url("views/images/sunset.png");
+      
+        /* Full height */
+        height: 100%;
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+      }
+      header {
+        text-align: center; /* Center the text */
+    }
+    
+    nav {
+        margin-top: 20px; /* Add some top margin for spacing */
+    }
+    
+    nav a {
+        display: inline-block; /* Display links inline */
+        text-decoration: none;
+        color: #333; /* Text color */
+        padding: 10px 20px; /* Add padding for spacing */
+        margin: 0 10px; /* Add margin for spacing between links */
+        border-radius: 5px; /* Add rounded corners */
+        background-color: #f0f0f0; /* Background color */
+        transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+    }
+    
+    nav a:hover {
+        background-color: #333; /* Change background color on hover */
+        color: #fff; /* Change text color on hover */
+    }
+    .delete-form {
+      display: inline-block;
+    }
+    lable {
+      font-size: 1.2em; /* Increase font size */
+      
+      text-decoration: none; /* Remove underline from links */
+      color: #333; /* Set link color */
+      border-radius: 8px; /* Add rounded corners */
+      padding-bottom: 10px;
+    }
+    
+    .invalid-data {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      color: red;
+      font-size: 0.8em;
+    }
+
+    a {
+      font-size: 1.2em; /* Increase font size */
+      padding: 0.5em 1em; /* Add padding to create space around the text */
+      text-decoration: none; /* Remove underline from links */
+      color: white; /* Set link color */
+      border-radius: 8px; /* Add rounded corners */
+      background: linear-gradient(to right, #4CAF50, #808080); /* Linear gradient from green to gray */
+      margin-bottom: 50px; /* Add space between each link from the bottom */
+      margin-right: 10px; /* Add space between each link */
+      padding-bottom: 10px;
+    }
+
+    button {
+      background-color: #04AA6D; /* Green */
+      border: none;
+      color: white;
+      padding: 0.5em 1em;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      background: linear-gradient(to right, #4CAF50, #808080); /* Linear gradient from green to gray */
+      border-radius: 8px;
+    }
+    li {
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
